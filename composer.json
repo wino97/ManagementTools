@@ -1,0 +1,21 @@
+{
+    "name": "ctsit/management-tools",
+    "description": "Backup and more - wordpress plugin.",
+    "keywords": ["ctsit", "management-tools"],
+    "license": "GNU",
+    "homepage": "https://ctsit.pl",
+    "authors": [
+        {
+            "name": "Przemysław Winiarski",
+            "email": "p.winiarski@ctsit.pl"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CloudTechSolutions\\ManagementTools\\": "src/"
+        }
+    }
+}
